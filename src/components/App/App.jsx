@@ -78,6 +78,8 @@ class App extends Component {
       >
         <h1>Phonebook</h1>
         <ContactForm
+          name={this.state.name}
+          number={this.state.number}
           onNameChange={this.handleNameChange}
           onNumberChange={this.handleNumberChange}
           onSubmit={this.handleSubmit}
